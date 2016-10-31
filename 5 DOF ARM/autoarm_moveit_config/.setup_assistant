@@ -1,0 +1,8 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: autoarm_description
+    relative_path: urdf/autoarm.xacro
+  SRDF:
+    relative_path: config/autoarm.srdf
+  CONFIG:
+    generated_timestamp: 1462263276

@@ -1,0 +1,9 @@
+<launch>
+
+  <include file="$(find autoarm_gazebo)/launch/autoarm_in_empty_world.launch" />
+
+  <include file="$(find autoarm_gazebo)/launch/autoarm_joint_state_controllers.launch" />
+
+  <include file="$(find autoarm_gazebo)/launch/autoarm_joint_position_controllers.launch" />
+
+</launch>

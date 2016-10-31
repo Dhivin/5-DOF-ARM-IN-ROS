@@ -1,0 +1,10 @@
+<launch>
+
+  <node name="autoarm_grasp_pose_server"
+        pkg="autoarm_poses"
+        type="grasp_pose_server"
+        output="screen">
+    <rosparam file="$(find autoarm_moveit)/config/grasp_data.yaml" command="load" />
+  </node>
+
+</launch>
